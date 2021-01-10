@@ -62,12 +62,9 @@ the bunny configuration.
 which generates something like this:
 
 ```
-    
     Host hop1
-    
       HostName XX.XXX.XXX.XXX
       User poor_graduate_student
-    
     Host notebook
       HostName fakeemail@someuniversity.edu
       User poor_graduate_student
@@ -75,7 +72,6 @@ which generates something like this:
       RequestTTY force
       LocalForward 8889 127.0.0.1:8889
       RemoteCommand /path/to/env/python jupyter notebook --no-browser --NotebookApp.token="" --port=8889
-
 ```
 
 The last command will be the `run()` function which will execute the `SSH` connection across your gateways. Under the hood
