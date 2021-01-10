@@ -18,7 +18,6 @@ accessible and you are going to port forward through several machines. Well I wr
 
 ```
     HOST A (local machine) -> HOST B (gateway) -> HOST C (execute jupyter)
-    
 ```
 **Note**: you must have authorized keys in your SSH between every Host added into the Bunny.
 
