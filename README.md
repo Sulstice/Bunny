@@ -8,7 +8,7 @@ Bunny - Your SSH-Jupyter Proxy Hop Friend!
 [![saythanks](https://img.shields.io/badge/Lab-Shen%20Group-ff69b4.svg)](https://www.computchem.org/)
 
 <p align="center">
-  <img width="500" height="600" src="images/bunny.gif">
+  <img width="800" height="600" src="images/bunny.gif">
 </p>
 
 
@@ -16,10 +16,10 @@ Bunny is a ssh proxy jumping for jupyter notebooks. If you are in a situation si
 forward a jupyter notebook from your mini cluster machine but is not ssh accessible so you need a gateway that is SSH
 accessible and you are going to port forward through several machines. Well I wrote a python package for it. 
 
-<p align="center">
-  <img width="800" height="300" src="images/diagram.png">
-</p>
-
+```
+    HOST A (local machine) -> HOST B (gateway) -> HOST C (execute jupyter)
+    
+```
 **Note**: you must have authorized keys in your SSH between every Host added into the Bunny.
 
 Quick Start
