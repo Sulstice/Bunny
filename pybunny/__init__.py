@@ -4,6 +4,6 @@
 #
 # ----------------------------
 
-from bunny.bunny import Bunny
+from pybunny.bunny import Bunny
 
-name='bunny'
+name='pybunny'

@@ -1,5 +1,5 @@
-Bunny - Your SSH-Jupyter Proxy Hop Friend!
-==========================================
+PyBunny - Your SSH-Jupyter Proxy Hop Friend!
+============================================
 
 ![Python](https://img.shields.io/badge/python-3.6-blue.svg)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
@@ -28,9 +28,11 @@ Quick Start
 Running the bunny is pretty easy. To initialize a class you pass the `python_env` variable to dictate which python env
 is going to be running the jupyter notebook. The `notebook_launch_command` is your exact launch command to run the jupyter 
 notebook - mine is exampled down below and the `port` you execute your notebook on.
+
     
 ```
-
+    from pybunny.bunny import Bunny
+    
     bunny = Bunny(
         python_env='/path/to/env/python',
         notebook_launch_command='jupyter notebook --no-browser --NotebookApp.token=""',

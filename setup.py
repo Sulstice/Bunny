@@ -24,7 +24,7 @@ with open('requirements.txt') as f:
 if os.path.exists('README.md'):
     long_description = open('README.md').read()
 else:
-    long_description = 'Bunny - Your SSH-Jupyter Proxy Hop Friend'
+    long_description = 'PyBunny - Your SSH-Jupyter Proxy Hop Friend'
 
 TEST_REQUIREMENTS = [
     'pytest',
@@ -34,9 +34,9 @@ TEST_REQUIREMENTS = [
 # exec
 # ----
 setup(
-    name="bunny",
+    name="pybunny",
     version="0.0.1",
-    packages=['bunny'],
+    packages=['pybunny'],
     license='MIT',
     author="Suliman Sharif",
     author_email="sharifsuliman1@gmail.com",
@@ -45,7 +45,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     zip_safe=False,
-    keywords='bunny ssh',
+    keywords='bunny ssh jupyter notebook',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Natural Language :: English',
