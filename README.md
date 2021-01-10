@@ -12,7 +12,7 @@ forward a jupyter notebook from your mini cluster machine but is not ssh accessi
 accessible and you are going to port forward through several machines. Well I wrote a python package for it. 
 
 <p align="center">
-  <img width="600" height="300" src="images/diagram.png">
+  <img width="800" height="300" src="images/diagram.png">
 </p>
 
 **Note**: you must have authorized keys in your SSH between every Host added into the Bunny.
