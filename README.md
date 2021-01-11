@@ -45,8 +45,8 @@ in your chain to run the notebook then add the `proxy_jump` argument if
 
 ```
 
-    bunny.add_hop('hop1', hostname='XX.XX.XXX.XXX', user='poor_graduate_student')
-    bunny.add_hop('notebook', hostname='fakeemail@someuniversity.edu', user='poor_graduate_student', proxy_jump = True)
+    bunny.add_hop('hop1', hostname='XX.XX.XXX.XXX', user='poor_student')
+    bunny.add_hop('notebook', hostname='some_hostname', user='poor_student', proxy_jump = True)
     
 ```
 
@@ -64,10 +64,10 @@ which generates something like this:
 ```
     Host hop1
       HostName XX.XXX.XXX.XXX
-      User poor_graduate_student
+      User poor_student
     Host notebook
-      HostName fakeemail@someuniversity.edu
-      User poor_graduate_student
+      HostName some_hostname
+      User poor_student
       ProxyJump XX.XX.XXX.XXX
       RequestTTY force
       LocalForward 8889 127.0.0.1:8889
