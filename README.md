@@ -5,7 +5,7 @@ PyBunny - Your SSH-Jupyter Proxy Hop Friend!
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![saythanks](https://img.shields.io/badge/Lab-Shen%20Group-ff69b4.svg)](https://www.computchem.org/)
+[![saythanks](https://img.shields.io/badge/Lab-MacKerell%20Group-ff69b4.svg)](https://www.computchem.org/)
 
 <p align="center">
   <img width="800" height="600" src="images/bunny.gif">
