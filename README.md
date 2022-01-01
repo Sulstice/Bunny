@@ -45,8 +45,8 @@ in your chain to run the notebook then add the `proxy_jump` argument if
 
 ```
 
-    bunny.add_hop('hop1', hostname='XX.XX.XXX.XXX', user='poor_student')
-    bunny.add_hop('notebook', hostname='some_hostname', user='poor_student', proxy_jump = True)
+    bunny.add_hop('hop1', hostname='XX.XX.XXX.XXX', user='grad_student')
+    bunny.add_hop('notebook', hostname='some_hostname', user='grad_student', proxy_jump = True)
     
 ```
 
