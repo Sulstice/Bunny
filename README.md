@@ -64,10 +64,10 @@ which generates something like this:
 ```
     Host hop1
       HostName XX.XXX.XXX.XXX
-      User poor_student
+      User grad_student
     Host notebook
       HostName some_hostname
-      User poor_student
+      User grad_student
       ProxyJump XX.XX.XXX.XXX
       RequestTTY force
       LocalForward 8889 127.0.0.1:8889
